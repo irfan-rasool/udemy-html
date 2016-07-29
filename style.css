@@ -10,30 +10,72 @@ body {
 
 .heading {
     color: #008000;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 h1 {
     font-size: 40px;
-    margin-top: 20px;
 }
 
 h2 {
     font-size: 25px;
+     
 }
 .container {
-    margin-left: auto;
-    margin-right: auto;
     width: 1140px; 
+    margin: 20px auto 0 auto;
 }
 .main-text {
     text-align: justify;
+    padding-right: 30px;
     margin-bottom: 10px;
 }
 .blog-section {
     width: 75%;
+    float: left;
+    position: relative;
 }
 .blog-section img{
     height: 150px;
     width: auto;
+}
+.rt-section {
+    width: 25%;
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.others {
+    padding-bottom: 40px;
+}
+
+.footer {
+    border-top: 1px solid #808080;
+    padding-top: 10px;
+}
+
+.footer img {
+    height: 100px;
+    width:auto;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-name {
+    float: left;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.date {
+    float: right;
+    position: absolute;
+    top:20px;
+    right: 30px;
 }
